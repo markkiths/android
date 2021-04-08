@@ -28,6 +28,7 @@
   <project path="vendor/lineage" name="android_vendor_lineage" remote="lineagemod" />
   <project path="frameworks/base" name="android_frameworks_base" remote="lineagemod" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lineagemod" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="lineagemod" />
 
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="lineageq" />
   <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="lineageq" />
