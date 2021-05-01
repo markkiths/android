@@ -29,6 +29,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="lineagemod" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lineagemod" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="lineagemod" />
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="lineagemod" />
   
   <project path="hardware/qcom-caf/msm8916/audio" name="markkiths/android_hardware_qcom_audio" revision="lineage-17.1-caf-msm8916" />
   <project path="hardware/qcom-caf/msm8916/display" name="markkiths/android_hardware_qcom_display" revision="lineage-17.1-caf-msm8916" />
