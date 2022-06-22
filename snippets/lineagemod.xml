@@ -21,9 +21,9 @@
            fetch="https://gitlab.pixelexperience.org/android"
            revision="ten" />
 
-  <remote  name="gcc9"
-           fetch="https://github.com/kdrag0n"
-           revision="9.x" />
+  <remote  name="gcc11"
+           fetch="https://github.com/javashin"
+           revision="main" />
 
   <project path="vendor/lineage" name="android_vendor_lineage" remote="lineagemod" />
   <project path="frameworks/base" name="android_frameworks_base" remote="lineagemod" />
@@ -41,6 +41,6 @@
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab-self-hosted" />
   <project path="external/motorola/faceunlock-res" name="external_motorola_faceunlock-res" remote="pixel" />
 
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="aarch64-elf-gcc" remote="gcc9" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="arm64-gcc-11" remote="gcc11" />
   
 </manifest>
